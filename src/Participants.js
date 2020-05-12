@@ -1,4 +1,4 @@
-const participants = [
+export default [
   {
       id: 1,
       name: 'Koren Templeton',

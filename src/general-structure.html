@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OWL Mockup</title>
+</head>
+<body>
+    <main>
+        <div class="session-sidebar">
+            <div class="sidebar-nav">
+                <div class="participants"></div>
+            </div>
+            <div class="participants-container">
+                <ul class="participant-group">
+                    <li class="participant-structure">Particpant</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+
+
+
+participantStructure = ''
+
+participants.forEach(participant => particpantStructure +=`
+<div class="participant-name">${participant.name}
+<div class="participant-avatar">${participant.avatar}
+<div class="participant-status">${participant.inSession}
+`
